@@ -1,0 +1,73 @@
+#intro {
+    background: url(../../assets/back.jpg);
+    text-align: center;
+    height: 60vh;
+    margin-top: -60px;
+    background-size: cover;
+    background-position: 57% 48%;
+}
+
+#intro h1 {
+    font-family: 'Playfair Display';
+    font-size: 65px;
+    color: #fff;
+    font-weight: normal;
+    padding-top: 50px;
+    margin-bottom: 25px;
+}
+
+#intro p {
+    color: #bfbfbf;
+    font-size: 17px;
+    line-height: 32px;
+    width: 50%;
+    margin: auto;
+}
+
+#intro .botones a {
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 9px 23px;
+}
+
+#intro .menu {
+    color: #fff;
+    border: 1px solid #fff;
+    padding-top: 9px;
+    background: transparent;
+}
+
+#intro .reservation {
+    color: #fff;
+    background: #c39d63;
+}
+
+#intro .botones {
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 800px){
+    #intro {
+        margin-top: -35px;  
+    }
+
+    #intro h1 {
+        font-size: 45px;
+        margin-bottom: 36px;
+    }
+  
+    #intro p {
+        font-size: 13px;
+        line-height: 32px;
+        width: 90%;
+    }
+
+    #intro .menu {
+        margin-left: 20px;
+    }
+
+    #intro .botones {
+        margin-top: 50px;
+    }
+}
+

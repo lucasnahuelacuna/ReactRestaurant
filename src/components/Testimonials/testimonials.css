@@ -1,0 +1,66 @@
+#testimonials .contenedor {
+    width: 90%;
+    max-width: 1150px;
+    margin: auto;
+}
+
+#testimonials {
+    background: #f7f7f7;
+    text-align: center;
+    padding: 90px 0px;
+}
+
+#testimonials .titular {
+    color: #bfbfbf;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+#testimonials h2 {
+    margin-top: 50px;
+    font-size: 48px;
+    font-family: 'Playfair Display';
+    font-weight: 300;
+}
+
+#testimonials hr {
+    width: 40px;
+    float: none;
+    font-weight: 700;
+}
+
+.contenedor-testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.testimonial {
+    width: 25%;
+    text-align: left;
+}
+
+.testimonial img {
+    width: 55%;
+}
+
+.testimonial .texto {
+    font-size: 17px;
+    color: #939393;
+    line-height: 30px;
+    width: 88%;
+}
+
+@media screen and (max-width: 800px) {
+    .contenedor-testimonials {
+        flex-direction: column;
+    }
+
+    .testimonial {
+        width: 100%;
+    }
+
+    .testimonial img {
+        width: 45%;
+    }
+}

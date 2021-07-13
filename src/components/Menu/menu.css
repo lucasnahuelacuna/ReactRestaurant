@@ -1,0 +1,104 @@
+#menu {
+    background: #1f1f1f;
+}
+
+#menu .contenedor {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+    background: #fff;
+}
+
+#menu .foto {
+    width: 33.34%;
+    height: 300px;
+}
+
+#menu .texto {
+    width: 33.3333%;
+}
+
+#menu .cangrejo {
+    background: url(../../assets/cangrejo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu .hongos {
+    background: url(../../assets/hongos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu .pez {
+    background: url(../../assets/pez.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu .linea1 {
+    display: flex;
+}
+
+#menu .linea2 {
+    display: flex;
+}
+
+#menu li {
+    list-style: none;
+}
+
+#menu .texto {
+    text-align: center;
+}
+
+#menu .precio {
+    color: #c29d62;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#menu .titulo {
+    font-family: 'Playfair Display';
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+
+#menu .parrafo {
+    color: #939393;
+    line-height: 30px;
+    margin-top: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+#menu .texto ul {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 800px) {
+    #menu .linea1 {
+        flex-direction: column;
+    }
+
+    #menu .linea2 {
+        flex-direction: column;
+    }
+
+    #menu .texto {
+        width: 100%;
+    }
+
+    #menu .foto {
+        width: 100%;
+    }
+
+    #menu .parrafo {
+        line-height: 27px;
+        padding-bottom: 20px;
+    }
+
+}

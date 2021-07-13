@@ -1,0 +1,33 @@
+.dd-list {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .dd-list {
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        left: 0;
+        top: 77px;
+        width: 100%;
+        background: #000;
+    }
+      
+    .dd-list-item {
+        list-style: none;
+    }
+      
+    .dd-list-item a {
+        width: 100%;
+        display: block;
+        text-decoration: none;
+        padding: 15px 20px 15px 20px;
+        background: #000;
+        border: 0;
+        box-sizing: border-box;
+        color: #fff;
+    }
+    
+}
